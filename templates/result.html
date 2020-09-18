@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block header %}
+<div class="jumbotron">
+	<div class="container">
+  <h1 class="display-4">判定結果</h1>
+	</div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+    {{result}}
+    <p><img src="{{filepath}}"></p>
+    <form method="get" action="/">
+      <button class="submit">戻る</button>
+    </form>
+  </div>
+{% endblock %}
