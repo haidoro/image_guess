@@ -284,7 +284,7 @@ Herokuにプッシュが終わると、requirements.txtに従ってインスト�
 
 無事にインストールできれば、Webアプリは以下のアドレスで開きます。
 
-https://flask-vgg10.herokuapp.com/ 
+https://flask-vgg16.herokuapp.com/ 
 
 ## インストールがうまくいかない場合
 
